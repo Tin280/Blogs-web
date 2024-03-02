@@ -1,0 +1,145 @@
+.error {
+    color: red;
+    background: lightgrey;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.notification {
+    color: green;
+    background: lightgrey;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('cover.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'roboto', sans-serif;
+    opacity: 0.8;
+}
+
+.heading {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+#loginform {
+    width: 400px;
+    height: auto;
+    color: #fff;
+    font-family: 'roboto', sans-serif;
+}
+
+.link:hover {
+    color: #fff;
+}
+
+.link {
+
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.5);
+    display: block;
+    margin: 30px auto;
+    text-decoration: underline;
+}
+
+.logged-in-user {
+    color: #00FFFF;
+}
+
+.button {
+    width: auto;
+    padding: 0 20px;
+    cursor: pointer;
+    margin: 50px auto 0;
+    opacity: 0.8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+input,
+.button {
+    /* opacity: 0; */
+    height: 35px;
+    display: block;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    color: #fff;
+    transition: .5s;
+    text-transform: capitalize;
+}
+
+.button:hover {
+    opacity: 1;
+    /* Button becomes fully opaque on hover */
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Change background color slightly on hover */
+}
+
+.Bloglistbtn {
+    width: auto;
+    padding: 10px 20px;
+    /* Increased padding for better spacing */
+    cursor: pointer;
+    margin: 20px auto 0;
+    /* Reduced top margin for better alignment */
+    opacity: 1;
+    /* Set opacity to 1 for full visibility */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* Adjusted box-shadow for a lighter effect */
+    border: none;
+    /* Removed border to simplify the button */
+    border-radius: 5px;
+    color: #fff;
+    /* Changed text color to white for better contrast */
+    background: rgba(255, 255, 255, 0.3);
+    /* Added background color for better visibility */
+    transition: all 0.3s ease;
+    /* Added transition effect for smoother hover effect */
+}
+
+.Bloglistbtn:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Darker background color on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Slightly increased shadow on hover */
+}
+
+span {
+    color: white;
+}
+
+.blog {
+    background-color: #fff;
+}

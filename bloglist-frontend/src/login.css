@@ -1,0 +1,65 @@
+.form {
+    width: 400px;
+    height: auto;
+    color: #fff;
+    font-family: 'roboto', sans-serif;
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Màu nền trong suốt */
+    border: 1px solid #ccc;
+    /* Viền input */
+    padding: 10px;
+    /* Khoảng cách bên trong input */
+    border-radius: 8px
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+input:focus,
+.submit-btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+input:focus::placeholder {
+    color: #000;
+}
+
+
+
+input {
+    width: 80%;
+    height: 35px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    color: #fff;
+    padding: 15px;
+    transition: .5s;
+    text-transform: capitalize;
+}
+
+/* #login-button {
+    width: auto;
+    padding: 0 20px;
+    cursor: pointer;
+    margin: 50px auto 0;
+}
+
+input,
+#login-button {
+    height: 35px;
+    display: block;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    color: #fff;
+    transition: .5s;
+    text-transform: capitalize;
+} */
