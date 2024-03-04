@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseUrl = 'https://blogs-web-gules.vercel.app/api/blogs'
+const baseUrl = 'https://blogs-web-two.vercel.app/api/blogs'
 
 let token = null
 const setToken = newToken => {
@@ -25,6 +25,7 @@ const update = async newBlog => {
   const response = await axios.put(`${baseUrl}/${newBlog.id}`, newBlog, config)
   return response.data
 }
+
 const deleteBlog = async blog => {
   const config = {
     headers: { Authorization: token },

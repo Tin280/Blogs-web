@@ -16,9 +16,9 @@ const Blog = ({ blog, updateBlog, deletebBlog, user }) => {
     setVisible(!visible)
   }
 
-  const addlike = () => {
+  const addlike = async () => {
     const newBlog = { ...blog, likes: blog.likes + 1 }
-    updateBlog(newBlog)
+    await updateBlog(newBlog)
   }
 
   return (
